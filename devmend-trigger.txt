@@ -1,1 +1,1 @@
-# DevMend E2E c2 s21 flaky 2026-07-01T23:02:01.233Z
+# DevMend E2E c2 s28 cfg_ci_no_install 2026-07-01T23:02:24.164Z
