@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "typescript": "^5.0.0",
-    "cheerio": "*"
+    "cheerio": "*",
+    "jest": "*"
   }
 }
