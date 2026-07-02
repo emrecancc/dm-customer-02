@@ -1,4 +1,2 @@
-module.exports = {
-  host: 'localhost',
-  debug: true,
-};
+// syntax fixed
+console.log('ok');
