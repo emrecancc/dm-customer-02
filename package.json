@@ -16,6 +16,7 @@
     "beanie": "*",
     "redis": "*",
     "gunicorn": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "nock": "*"
   }
 }
