@@ -1,17 +1,19 @@
-const http = require('http');
-const app = require('../src/app');
-
-let server;
+const request = require('supertest');
+const server = require('../src/server');
 
 describe('Server', () => {
   beforeAll(() => {
-    server = http.createServer(app).listen(3199);
+    // Start the server on a random available port to avoid port conflicts
+    server.listen(0);
   });
 
-  it('responds to health check', async () => {
-    // Another test file also listens on 3199 — race condition
-    const res = await fetch('http://localhost:3199/health');
+  afterAll(() => {
+    // Ensure the server is closed after all tests to free the port
+    server.close();
+  });
+
+  test('GET /', async () => {
+    const res = await request(server).get('/');
     expect(res.status).toBe(200);
   });
-  // afterAll missing: server not closed
 });
