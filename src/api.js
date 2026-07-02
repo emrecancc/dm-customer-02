@@ -1,4 +1,4 @@
-async function getUser(id {
+async function getUser(id) {
   const r = await fetch(`/api/users/${id}`);
   return r.json();
 }
