@@ -11,6 +11,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "bull": "*"
+    "bull": "*",
+    "pandas": "*",
+    "beanie": "*"
   }
 }
