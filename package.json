@@ -9,5 +9,8 @@
     "start": "node dist/index.js",
     "build": "tsc"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "bull": "*"
+  }
 }
