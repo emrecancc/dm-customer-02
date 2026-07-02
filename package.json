@@ -2,10 +2,13 @@
   "name": "react-ts",
   "version": "1.0.0",
   "dependencies": {
-    "react-query": "latest"
+    "react": "*",
+    "@types/react": "*"
   },
+  "peerDependencies": {},
   "scripts": {
     "test": "jest",
-    "start": "node index.js"
+    "build": "tsc",
+    "start": "node dist/index.js"
   }
 }
