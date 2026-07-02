@@ -13,6 +13,8 @@
   "devDependencies": {
     "bull": "*",
     "pandas": "*",
-    "beanie": "*"
+    "beanie": "*",
+    "redis": "*",
+    "gunicorn": "*"
   }
 }
