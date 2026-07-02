@@ -1,13 +1,14 @@
 {
   "name": "dm-customer-02",
   "version": "1.0.0",
-  "dependencies": {},
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20"
-  },
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc --noEmit || echo ok",
-    "test": "echo ok"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "anthropic": "*"
   }
 }
