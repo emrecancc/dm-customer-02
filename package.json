@@ -2,10 +2,10 @@
   "name": "react-ts",
   "version": "1.0.0",
   "dependencies": {
-    "sqlite3": "latest"
+    "react-query": "latest"
   },
   "scripts": {
-    "build": "npm run build:native",
-    "test": "jest"
+    "test": "jest",
+    "start": "node index.js"
   }
 }
