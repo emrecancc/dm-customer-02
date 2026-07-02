@@ -1,12 +1,16 @@
+const batchProcess = require('../batchProcess');
+
 describe('batch processing', () => {
-  it('processes all items', (done) => {
+  test('processes all items', async () => {
+    const items = Array.from({ length: 10 }, (_, i) => i);
     const results = [];
-    const promises = Array.from({length: 10}, (_, i) =>
-      processItem(i).then(r => results.push(r))
+    await Promise.all(
+      items.map(item =>
+        batchProcess(item, res => {
+          results.push(res);
+        })
+      )
     );
-    setTimeout(() => {
-      expect(results).toHaveLength(10); // race condition: may not be done
-      done();
-    }, 100);
+    expect(results).toHaveLength(10);
   });
 });
