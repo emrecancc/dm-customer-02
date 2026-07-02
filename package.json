@@ -15,6 +15,7 @@
     "pandas": "*",
     "beanie": "*",
     "redis": "*",
-    "gunicorn": "*"
+    "gunicorn": "*",
+    "react-dom": "*"
   }
 }
