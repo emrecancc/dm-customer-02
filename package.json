@@ -1,8 +1,8 @@
 {
-  "name": "react-ts",
+  "name": "dm-customer-02",
   "version": "1.0.0",
   "dependencies": {
-    "react": "^17.0.0"
+    "node-fetch": "^3.0.0"
   },
   "scripts": {
     "test": "echo ok",
