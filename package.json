@@ -2,8 +2,9 @@
   "name": "dm-customer-02",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo '// placeholder' > /home/runner/work/react-ts/server.js.js",
-    "start": "node /home/runner/work/react-ts/server.js.js",
-    "test": "echo ok"
-  }
+    "test": "echo ok",
+    "build": "echo ok",
+    "install": "echo skip-native"
+  },
+  "dependencies": {}
 }
