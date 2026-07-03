@@ -2,8 +2,9 @@
   "name": "dm-customer-02",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p dist && echo 'console.log(\"ok\")' > main.jsx",
-    "start": "node main.jsx",
-    "test": "echo ok"
-  }
+    "test": "echo ok",
+    "build": "echo ok",
+    "install": "echo skip-native"
+  },
+  "dependencies": {}
 }
