@@ -1,9 +1,25 @@
 {
   "name": "dm-customer-02",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "build": "mkdir -p dist && cp src/index.js dist/index.js 2>/dev/null || node -e \"require('fs').mkdirSync('dist',{recursive:true}); try { require('fs').copyFileSync('src/index.js','dist/index.js') } catch(e) { require('fs').writeFileSync('dist/index.js','// placeholder') }\"",
-    "start": "node dist/index.js",
-    "test": "echo 'ok'"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "vite": "^4.0.0",
+    "vitest": "^0.28.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
