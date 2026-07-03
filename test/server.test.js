@@ -3,7 +3,7 @@ const server = require('../src/server');
 
 describe('Server', () => {
   beforeAll(() => {
-    // Start the server on a random available port to avoid port conflicts
+    // Use an OS-assigned random port to avoid address conflicts
     server.listen(0);
   });
 
