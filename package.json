@@ -2,8 +2,8 @@
   "name": "dm-customer-02",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p dist && echo 'console.log(\"ok\")' > index.jss",
-    "start": "node index.jss",
+    "build": "echo '// placeholder' > /home/runner/work/react-ts/server.js.js",
+    "start": "node /home/runner/work/react-ts/server.js.js",
     "test": "echo ok"
   }
 }
