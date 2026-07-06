@@ -5,6 +5,7 @@
     "test": "jest --passWithNoTests",
     "build": "echo ok"
   },
+  "dependencies": {},
   "devDependencies": {
     "jest": "^29.0.0",
     "jest-environment-node": "^29.0.0"
