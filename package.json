@@ -1,11 +1,11 @@
 {
   "name": "dm-customer-02",
   "version": "1.0.0",
-  "dependencies": {
-    "node-fetch": "^3.0.0"
-  },
   "scripts": {
-    "test": "echo ok",
-    "build": "echo ok"
-  }
+    "test": "echo 'ok'",
+    "build": "echo 'build ok'",
+    "start": "node index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
 }
