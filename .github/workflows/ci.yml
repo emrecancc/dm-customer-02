@@ -6,4 +6,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: npm ci
-      - run: node app.jss
+      - run: node src/main.jsx
